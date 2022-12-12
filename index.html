@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DWA</title>
+    <link rel="stylesheet" href="./lib/style.css">
+</head>
+
+<body>
+    <main class="container">
+        <h2 class="title">Dynamic Window Approach Demonstration</h2>
+        <div id="canvas_container"></div>
+        <div class="container_control">
+            <div class="vertical_align_center">
+                <label for="objcount">Object Count: </label>
+                <input id="objcount" type="range" min="10" max="70" step="5" value="30" />
+            </div>
+            <div class="vertical_align_center">
+                <button id="start_button">Start</button>
+                <button id="stop_button">Pause</button>
+                <button id="restart_button">Restart</button>
+            </div>
+        </div>
+    </main>
+    <div id="canvas_container"></div>
+    <script src="./lib/p5.min.js"></script>
+    <script src="./class/Node.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
